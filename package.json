@@ -1,0 +1,23 @@
+{
+  "name": "processlens-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ProcessLens — автентифікація, авторизація та завантаження файлів (ЛР2 «Вебпрограмування»)",
+  "author": "Коваль Денис",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "gen-sample": "node gen_sample.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "express-validator": "^7.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
